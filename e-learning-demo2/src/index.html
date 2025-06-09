@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Section NavBar  -->
+    <header class="nav">
+        <nav class="navbar">
+            <div class="logo">
+                <h3><a href="#index.html">Grate Learn</a></h3>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <nav class="navbar-menu">
+            <div class="logo">
+                <h3><a href="#home">Grate Learn</a></h3>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars menu-icon" id="menu"></i>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#progress">Progress</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Course Listing -->
+
+    <main id="home" class="course-listing">
+        <h1>Explore Our Courses</h1>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="/Assets/web-dev-img.webp" alt="Web Development Fundamentals" />
+                <h3>Web Development Fundamentals</h3>
+                <p>Learn the basics of HTML, CSS, and JavaScript.</p>
+                <a href="https://youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYlz2Hu7i" target="_blank"
+                    class="button">View Course</a>
+            </div>
+            <div class="course-card">
+                <img src="/assets/python-img.webp" alt="Python for Beginners" />
+                <h3>Python for Beginners</h3>
+                <p>A beginner-friendly introduction to the Python programming language.</p>
+                <a href="https://youtu.be/UrsmFxElp5k" target="_blank" class="button">View Course</a>
+            </div>
+            <div class="course-card">
+                <img src="/assets/datascience-img.webp" alt="Data Science Essentials" />
+                <h3>Data Science For Beginners</h3>
+                <p>Explore the core concepts of data science and analysis.</p>
+                <a href="https://youtube.com/live/51U1r-1CiZE" target="_blank" class="button">View Course</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Video Container -->
+
+    <main id="courses" class="video-listing">
+        <h1>Explore Our Courses</h1>
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/CMEWVn1uZpQ" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div> <br />
+                <p>Data Science With Python</p>
+
+            </div>
+            <div class="course-card">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/38GNKtclDdE" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div> <br />
+                <p>Build Rest API's in .NET9</p>
+            </div>
+            <div class="course-card">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/8pn9KEuXG28" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div> <br />
+                <p>Vue.js For Beginners</p>
+            </div>
+            <div class="course-card">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/embed/NdeeSEknp58" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div> <br />
+                <p>Relational DBMS Course</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- About Section -->
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1>About Us</h1>
+            <p class="subtitle">Empowering minds through accessible, high-quality education.</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Mission</h2>
+                    <p>
+                        At [Your E-Learning Platform Name], we believe education is the key to unlocking potential.
+                        Our mission is to provide affordable, engaging, and flexible learning experiences to students
+                        worldwide, helping them achieve their personal and professional goals.
+                    </p>
+                    <h2>Why Choose Us?</h2>
+                    <ul>
+                        <li>Expert-led courses designed for all skill levels.</li>
+                        <li>Flexible learning schedules to fit your lifestyle.</li>
+                        <li>Interactive content with real-world applications.</li>
+                        <li>Supportive community and dedicated instructors.</li>
+                    </ul>
+                    <a href="#courses" class="btn">Explore Our Courses</a>
+                </div>
+                <div class="about-image">
+                    <img src="/Assets/e-learning pic.webp" alt="E-Learning Platform">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Tracker -->
+
+    <div id="progress" class="progress">
+        <h1>Skill Progress Tracker</h1>
+
+        <div class="tracker">
+            <label for="html-progress">HTML Progress (%)</label>
+            <div class="progress-container">
+                <div class="progress-bar" id="html-bar">0%</div>
+            </div>
+            <input type="number" id="html-progress" min="0" max="100" placeholder="Enter 0-100">
+            <span class="error" id="html-error">Please enter a value between 0 and 100.</span>
+        </div>
+
+        <div class="tracker">
+            <label for="css-progress">CSS Progress (%)</label>
+            <div class="progress-container">
+                <div class="progress-bar" id="css-bar">0%</div>
+            </div>
+            <input type="number" id="css-progress" min="0" max="100" placeholder="Enter 0-100">
+            <span class="error" id="css-error">Please enter a value between 0 and 100.</span>
+        </div>
+
+        <div class="tracker">
+            <label for="js-progress">JavaScript Progress (%)</label>
+            <div class="progress-container">
+                <div class="progress-bar" id="js-bar">0%</div>
+            </div>
+            <input type="number" id="js-progress" min="0" max="100" placeholder="Enter 0-100">
+            <span class="error" id="js-error">Please enter a value between 0 and 100.</span>
+        </div>
+
+
+    </div>
+
+    <!-- Contact Form -->
+
+    <div id="contact" class="contact-form-list">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <div class="success-message" id="successMessage">Message sent successfully!</div>
+            <form id="contactForm" onsubmit="return validateForm(event)">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <div class="error" id="nameError">Please enter a valid name (at least 2 characters).</div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="error" id="emailError">Please enter a valid email address.</div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <div class="error" id="messageError">Please enter a message (at least 10 characters).</div>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>&copy; 2025 E-Learn Platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
